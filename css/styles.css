@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.best {
+    width: 100%;
+    height: 72px;
+}
+
+.info {
+
+    display: flex;
+    list-style-type: none;
+
+    text-align: center;
+}
+
+
+
+.about1 {
+    margin-top: 24px;
+    margin-left: 154px;
+
+}
+
+.web {
+    color: #4D5AE5;
+    ;
+}
+
+.about2 {
+    color: #2E2F42;
+    margin-top: 24px;
+    margin-left: 76px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+
+}
+
+.about3 {
+
+    margin-top: 24px;
+    margin-left: 40px;
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.about4 {
+    margin-top: 25px;
+    margin-left: 40px;
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.gmail {
+
+    margin-top: 25px;
+    margin-left: 332px;
+
+}
+
+.gmail-color {
+    color: #434455;
+}
+
+.phone {
+    margin-top: 25px;
+    margin-left: 40px;
+
+}
+
+.phone-color {
+    color: #434455;
+}
+
+.maket {
+    width: 1440px;
+    height: 600px;
+    Top: 72px;
+    background-color: #2E2F42;
+
+}
+
+.company {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+.order {
+    width: 169px;
+    height: 56px;
+    position: absolute;
+    top: 428px;
+    left: 550px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    gap: 10px;
+    background-color: #4D5AE5;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.reckrool {
+    color: #FFFFFF;
+}
+
+.all-text {
+    width: 1128px;
+    height: 104px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
+.text-for {
+    display: flex;
+    list-style-type: none;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+    margin-right: 24px;
+}
+
+.texth1,
+.texth2,
+.texth3,
+.texth4 {
+    margin-bottom: 8px;
+    color: #2E2F42;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.textp1,
+.textp2,
+.textp3,
+.textp4 {
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        
+        
+
+    
+    color: #434455;
+}
+
+.sectionn {
+    display: flex;
+    list-style-type: none;
+}
+
+.all {
+    Width: 1440px;
+    Height: 732px;
+
+}
+
+.sectionn,
+.ourteam,
+.person1h4,
+.person1p,
+.person2h4,
+.person2p,
+.person3h4,
+.person3p,
+.person4h4,
+.person4p {
+    color: black;
+}
+
+#second-section {
+    background-color: #F4F4FD;
+}
+
+.ourteam {
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 639px;
+    width: 162px;
+    height: 40px;
+    top: 1136px;
+    left: 639px;
+    weight: 700;
+    size: 36px;
+    height: 40px;
+    padding-top: 120px;
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+
+
+
+
+}
+
+.person1 {
+    margin-top: 72px;
+    margin-left: 156px;
+    margin-right: 24px;
+    margin-bottom: 120px;
+    background-color: #FFFFFF;
+}
+
+.person2 {
+    margin-top: 72px;
+    margin-right: 24px;
+    margin-bottom: 120px;
+    background-color: #FFFFFF;
+}
+
+.person3 {
+    margin-top: 72px;
+    margin-right: 24px;
+    margin-bottom: 120px;
+    background-color: #FFFFFF;
+}
+
+.person4 {
+    margin-top: 72px;
+    margin-right: 24px;
+    margin-bottom: 120px;
+    background-color: #FFFFFF;
+}
+
+.person1h4 {
+    margin-top: 34px;
+    text-align: center;
+    
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.person1p {
+    margin-top: 8px;
+    margin-bottom: 32px;
+    text-align: center;
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.person2h4 {
+    margin-top: 34px;
+    text-align: center;
+            font-family: Roboto;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                text-align: center;
+}
+
+.person2p {
+    margin-top: 8px;
+    margin-bottom: 32px;
+    text-align: center;
+            font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                text-align: center;
+}
+
+.person3h4 {
+    margin-top: 34px;
+    text-align: center;
+            font-family: Roboto;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                text-align: center;
+}
+
+.person3p {
+    margin-top: 8px;
+    margin-bottom: 32px;
+    text-align: center;
+            font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                text-align: center;
+}
+
+.person4h4 {
+    margin-top: 34px;
+    text-align: center;
+            font-family: Roboto;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                text-align: center;
+}
+
+.person4p {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+            font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                text-align: center;
+}
+
+.porfilioo {
+width: 1300px; height: 1200px 
+}
+
+.porfolioh1 {
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    padding-top: 120px;
+    margin-right: 611px;
+    margin-left: 611px;
+    white-space: nowrap;
+
+    margin-bottom: 72px;
+
+}
+
+.our-photo {
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        
+            list-style-type: none;
+
+}
+
+.ourl1 {
+    margin-left: 156px;
+    
+
+}
+
+.ourl2 {
+    margin-left: 24px;
+
+}
+.ourl3{
+    margin-left: 24px;
+}
+.ourl4 {
+    margin-left: 156px;
+    margin-top: 48px;
+
+}
+.ourl5 {
+    margin-left: 24px;
+    margin-top: 48px;
+}
+.ourl6 {
+    margin-left: 24px;
+    margin-top: 48px;
+}
+.ourh1,
+.ourh2,
+.ourh3,
+.ourh4,
+.ourh5,
+.ourh6 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+margin-top: 24px ;
+color: #2E2F42;
+}
+.ourp1,
+.ourp2,
+.ourp3,
+.ourp4,
+.ourp5,
+.ourp6 {
+margin-top: 8px;
+
+    
+    color: #434455;
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.footer-over{
+    width :1440px ;height: 312px;
+    background-color: #2E2F42;
+}
+.footer-h1{
+    color: #FFFFFF;
+    
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        padding-left: 156px ;
+        padding-top: 100px;
+}
+.WEB-over{
+    color: #4D5AE5 ;
+}
+.over{
+    color:#F4F4FD;;
+    padding-left: 156px;
+    padding-top: 16px;
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    
+        
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+   
+    
+        
+}
