@@ -89,8 +89,11 @@
     height: 600px;
     Top: 72px;
     background-color: #2E2F42;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/img/people-office\ 1\ \(1\).svg);
+    background-size: cover;
+        }
 
-}
 
 .company {
     position: absolute;
@@ -133,7 +136,7 @@
 
 .all-text {
     width: 1128px;
-    height: 104px;
+    height: 224px;
     margin-top: 120px;
     margin-bottom: 120px;
     margin-left: 156px;
@@ -165,6 +168,7 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-top: 8px;
 
 }
 
@@ -241,6 +245,9 @@
     margin-right: 24px;
     margin-bottom: 120px;
     background-color: #FFFFFF;
+    width: 264px; height:  428px;
+    list-style-type: none;
+    
 }
 
 .person2 {
@@ -248,6 +255,8 @@
     margin-right: 24px;
     margin-bottom: 120px;
     background-color: #FFFFFF;
+    width: 264px;
+        height: 428px;
 }
 
 .person3 {
@@ -255,6 +264,8 @@
     margin-right: 24px;
     margin-bottom: 120px;
     background-color: #FFFFFF;
+    width: 264px;
+        height: 428px;
 }
 
 .person4 {
@@ -262,6 +273,8 @@
     margin-right: 24px;
     margin-bottom: 120px;
     background-color: #FFFFFF;
+    width: 264px;
+        height: 428px;
 }
 
 .person1h4 {
@@ -278,7 +291,7 @@
 
 .person1p {
     margin-top: 8px;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     text-align: center;
     
         font-family: Roboto;
@@ -302,7 +315,7 @@
 
 .person2p {
     margin-top: 8px;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     text-align: center;
             font-family: Roboto;
                 font-size: 16px;
@@ -325,7 +338,7 @@
 
 .person3p {
     margin-top: 8px;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     text-align: center;
             font-family: Roboto;
                 font-size: 16px;
@@ -349,7 +362,7 @@
 .person4p {
     text-align: center;
     margin-top: 8px;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
             font-family: Roboto;
                 font-size: 16px;
                 font-weight: 400;
@@ -487,4 +500,91 @@ margin-top: 8px;
    
     
         
+}
+.container {
+    position: relative;
+    width: 264px;
+    height: 112px;
+}
+
+.bot {
+    position: absolute;
+    z-index: 1;
+        padding-left: 96px;
+            padding-top: 23px;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.container {
+    position: relative;
+    width: 264px;
+    height: 112px;
+}
+
+.new-bot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 96px;
+    padding-top: 23px ;
+    /* Підняти нижній SVG на один рівень вище */
+}
+
+.new-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    /* Не забувайте, що нижній SVG має бути нижче */
+}
+.bot-bot {
+    position: absolute;
+    z-index: 1;
+    padding-left: 96px;
+        padding-top: 23px;
+}
+.new-new-new{
+position: absolute;
+    z-index: 1;
+    padding-left: 96px;
+    padding-top: 23px;
+}
+.man1{
+    
+    margin-left: 16px;
+    
+}
+.man2{
+    margin-left: 24px;
+    
+}
+.man3 {
+    margin-left: 24px;
+    
+}
+.man4 {
+    margin-left: 24px;
+    
+
+}
+.sectionn li:not(:last-child) .man2 .clip-path {
+    display: none;
+}
+ul.sectionn {
+    list-style-type: none;
+    /* Видалення маркерів списку */
+}
+
+ul.sectionn li a {
+    text-decoration: none;
+   
+}
+.all a::before {
+    display: none;
 }
