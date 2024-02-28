@@ -92,42 +92,45 @@
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/img/people-office\ 1\ \(1\).svg);
     background-size: cover;
+    
         }
 
 
 .company {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    text-align: center;
+padding-left: 472px;
+padding-top: 188px;
+    position: absolute;;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
 
 }
 
 .order {
     width: 169px;
-    height: 56px;
-    position: absolute;
-    top: 428px;
-    left: 550px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    gap: 10px;
-    background-color: #4D5AE5;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+        height: 56px;
+        position: absolute;
+        top: 428px;
+        left: 550px;
+        border-radius: 4px;
+        gap: 10px;
+        background-color: #4D5AE5;
+        color: white;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    width: Hug (169px) ; height: Hug (56px) ; top: 428px ;  left: 635px ;  padding: 16px, 32px, 16px, 32px ; border-radius: 4px ; gap: 10px  ;
 }
 
 .reckrool {
@@ -214,6 +217,7 @@
 
 #second-section {
     background-color: #F4F4FD;
+    width: 1440px ; height: 780px ;
 }
 
 .ourteam {
@@ -461,46 +465,6 @@ margin-top: 8px;
         letter-spacing: 0.02em;
         text-align: left;
 }
-.footer-over{
-    width :1440px ;height: 312px;
-    background-color: #2E2F42;
-}
-.footer-h1{
-    color: #FFFFFF;
-    
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.03em;
-        text-align: left;
-        padding-left: 156px ;
-        padding-top: 100px;
-}
-.WEB-over{
-    color: #4D5AE5 ;
-}
-.over{
-    color:#F4F4FD;;
-    padding-left: 156px;
-    padding-top: 16px;
-    font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-    
-        
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-   
-    
-        
-}
 .container {
     position: relative;
     width: 264px;
@@ -587,4 +551,139 @@ ul.sectionn li a {
 }
 .all a::before {
     display: none;
+                display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                
+                    list-style-type: none;
+}
+/* .footer-h1 {
+    color: #FFFFFF;
+    padding-top: 100px;
+
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding-left: 156px;
+
+}
+
+.WEB-over {
+    color: #4D5AE5;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.over {
+    color: #F4F4FD;
+    ;
+    padding-left: 156px;
+    margin-top: 4px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+
+
+
+}
+
+.over2 {
+    padding-left: 540px;
+
+
+}
+
+.over3 {
+    padding-left: 269px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.over4 {
+    margin-left: 16px;
+
+}
+
+.over6 {
+    margin-left: 16px;
+
+}
+
+.over7 {
+    margin-left: 16px;
+
+}
+
+.over8 {
+    margin-left: 120px;
+    margin-top: px;
+} */
+
+.footer-over {
+    width: 1440px;
+    height: 312px;
+    background-color: #2E2F42;
+}
+.social-media {
+    color: white;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 120px;
+    padding-top: 100px;
+}
+.ok1{
+    margin-left: 120px;
+    margin-top: 16px;
+
+}
+.ok2,
+.ok3,
+.ok4{
+    margin-left: 16px;
+}
+.WEB-Studio{
+    font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #F4F4FD;
+        padding-top: 105px;
+        margin-left: 156px;
+}
+.over{
+            display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            
+                list-style-type: none;
+}
+.web{
+    color: #4D5AE5;
+}
+.over2 {
+    margin-left: 156px ;
+    margin-top : 16px;
 }
