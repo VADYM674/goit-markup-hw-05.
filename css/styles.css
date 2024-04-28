@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .best {
@@ -9,52 +10,24 @@
 }
 
 .info {
-
     display: flex;
     list-style-type: none;
-
     text-align: center;
 }
-
-
 
 .about1 {
     margin-top: 24px;
     margin-left: 154px;
-
 }
 
 .web {
     color: #4D5AE5;
-    ;
 }
 
-.about2 {
-    color: #2E2F42;
-    margin-top: 24px;
-    margin-left: 76px;
-
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-
-
-}
-
-.about3 {
-
-    margin-top: 24px;
-    margin-left: 40px;
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-}
-
+.about2,
+.about3,
 .about4 {
-    margin-top: 25px;
+    margin-top: 24px;
     margin-left: 40px;
     color: #2E2F42;
     font-family: Roboto;
@@ -63,6 +36,33 @@
     line-height: 24px;
 }
 
+.about2 a,
+.about3 a,
+.about4 a {
+    color: #2E2F42;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+}
+
+.about2 a:hover,
+.about3 a:hover,
+.about4 a:hover {
+    color: #4D5AE5;
+   text-decoration: underline;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #4D5AE5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    display: none;
+}
 .gmail {
 
     margin-top: 25px;
@@ -92,45 +92,53 @@
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/img/people-office\ 1\ \(1\).svg);
     background-size: cover;
-    
-        }
+
+}
 
 
 .company {
-padding-left: 472px;
-padding-top: 188px;
-    position: absolute;;
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 60px;
-        text-align: center;
+    padding-left: 472px;
+    padding-top: 188px;
+    position: absolute;
+    ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
 
 }
 
 .order {
     width: 169px;
-        height: 56px;
-        position: absolute;
-        top: 428px;
-        left: 550px;
-        border-radius: 4px;
-        gap: 10px;
-        background-color: #4D5AE5;
-        color: white;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.04em;
-        text-align: left;;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-    width: Hug (169px) ; height: Hug (56px) ; top: 428px ;  left: 635px ;  padding: 16px, 32px, 16px, 32px ; border-radius: 4px ; gap: 10px  ;
+    height: 56px;
+    position: absolute;
+    top: 428px;
+    left: 550px;
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #4D5AE5;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: Hug (169px);
+    height: Hug (56px);
+    top: 428px;
+    left: 635px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 4px;
+    gap: 10px;
 }
 
 .reckrool {
@@ -179,15 +187,15 @@ padding-top: 188px;
 .textp2,
 .textp3,
 .textp4 {
-    
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        
-        
 
-    
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+
+
     color: #434455;
 }
 
@@ -217,7 +225,8 @@ padding-top: 188px;
 
 #second-section {
     background-color: #F4F4FD;
-    width: 1440px ; height: 780px ;
+    width: 1440px;
+    height: 780px;
 }
 
 .ourteam {
@@ -249,9 +258,10 @@ padding-top: 188px;
     margin-right: 24px;
     margin-bottom: 120px;
     background-color: #FFFFFF;
-    width: 264px; height:  428px;
+    width: 264px;
+    height: 428px;
     list-style-type: none;
-    
+
 }
 
 .person2 {
@@ -260,7 +270,7 @@ padding-top: 188px;
     margin-bottom: 120px;
     background-color: #FFFFFF;
     width: 264px;
-        height: 428px;
+    height: 428px;
 }
 
 .person3 {
@@ -269,7 +279,7 @@ padding-top: 188px;
     margin-bottom: 120px;
     background-color: #FFFFFF;
     width: 264px;
-        height: 428px;
+    height: 428px;
 }
 
 .person4 {
@@ -278,105 +288,106 @@ padding-top: 188px;
     margin-bottom: 120px;
     background-color: #FFFFFF;
     width: 264px;
-        height: 428px;
+    height: 428px;
 }
 
 .person1h4 {
     margin-top: 34px;
     text-align: center;
-    
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: center;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .person1p {
     margin-top: 8px;
     margin-bottom: 8px;
     text-align: center;
-    
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: center;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .person2h4 {
     margin-top: 34px;
     text-align: center;
-            font-family: Roboto;
-                font-size: 20px;
-                font-weight: 500;
-                line-height: 24px;
-                letter-spacing: 0.02em;
-                text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .person2p {
     margin-top: 8px;
     margin-bottom: 8px;
     text-align: center;
-            font-family: Roboto;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 24px;
-                letter-spacing: 0.02em;
-                text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .person3h4 {
     margin-top: 34px;
     text-align: center;
-            font-family: Roboto;
-                font-size: 20px;
-                font-weight: 500;
-                line-height: 24px;
-                letter-spacing: 0.02em;
-                text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .person3p {
     margin-top: 8px;
     margin-bottom: 8px;
     text-align: center;
-            font-family: Roboto;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 24px;
-                letter-spacing: 0.02em;
-                text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .person4h4 {
     margin-top: 34px;
     text-align: center;
-            font-family: Roboto;
-                font-size: 20px;
-                font-weight: 500;
-                line-height: 24px;
-                letter-spacing: 0.02em;
-                text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .person4p {
     text-align: center;
     margin-top: 8px;
     margin-bottom: 8px;
-            font-family: Roboto;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 24px;
-                letter-spacing: 0.02em;
-                text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .porfilioo {
-width: 1300px; height: 1200px 
+    width: 1300px;
+    height: 1200px
 }
 
 .porfolioh1 {
@@ -398,17 +409,17 @@ width: 1300px; height: 1200px
 }
 
 .our-photo {
-        display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        
-            list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    list-style-type: none;
 
 }
 
 .ourl1 {
     margin-left: 156px;
-    
+
 
 }
 
@@ -416,22 +427,27 @@ width: 1300px; height: 1200px
     margin-left: 24px;
 
 }
-.ourl3{
+
+.ourl3 {
     margin-left: 24px;
 }
+
 .ourl4 {
     margin-left: 156px;
     margin-top: 48px;
 
 }
+
 .ourl5 {
     margin-left: 24px;
     margin-top: 48px;
 }
+
 .ourl6 {
     margin-left: 24px;
     margin-top: 48px;
 }
+
 .ourh1,
 .ourh2,
 .ourh3,
@@ -444,27 +460,29 @@ width: 1300px; height: 1200px
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-margin-top: 24px ;
-color: #2E2F42;
+    margin-top: 24px;
+    color: #2E2F42;
 }
+
 .ourp1,
 .ourp2,
 .ourp3,
 .ourp4,
 .ourp5,
 .ourp6 {
-margin-top: 8px;
+    margin-top: 8px;
 
-    
+
     color: #434455;
-    
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
+
 .container {
     position: relative;
     width: 264px;
@@ -474,8 +492,8 @@ margin-top: 8px;
 .bot {
     position: absolute;
     z-index: 1;
-        padding-left: 96px;
-            padding-top: 23px;
+    padding-left: 96px;
+    padding-top: 23px;
 }
 
 .top {
@@ -484,6 +502,7 @@ margin-top: 8px;
     left: 0;
     z-index: 0;
 }
+
 .container {
     position: relative;
     width: 264px;
@@ -496,7 +515,7 @@ margin-top: 8px;
     left: 0;
     z-index: 1;
     padding-left: 96px;
-    padding-top: 23px ;
+    padding-top: 23px;
     /* Підняти нижній SVG на один рівень вище */
 }
 
@@ -507,39 +526,47 @@ margin-top: 8px;
     z-index: 0;
     /* Не забувайте, що нижній SVG має бути нижче */
 }
+
 .bot-bot {
     position: absolute;
     z-index: 1;
     padding-left: 96px;
-        padding-top: 23px;
+    padding-top: 23px;
 }
-.new-new-new{
-position: absolute;
+
+.new-new-new {
+    position: absolute;
     z-index: 1;
     padding-left: 96px;
     padding-top: 23px;
 }
-.man1{
-    
+
+.man1 {
+
     margin-left: 16px;
-    
-}
-.man2{
-    margin-left: 24px;
-    
-}
-.man3 {
-    margin-left: 24px;
-    
-}
-.man4 {
-    margin-left: 24px;
-    
 
 }
+
+.man2 {
+    margin-left: 24px;
+
+}
+
+.man3 {
+    margin-left: 24px;
+
+}
+
+.man4 {
+    margin-left: 24px;
+
+
+}
+
 .sectionn li:not(:last-child) .man2 .clip-path {
     display: none;
 }
+
 ul.sectionn {
     list-style-type: none;
     /* Видалення маркерів списку */
@@ -547,16 +574,18 @@ ul.sectionn {
 
 ul.sectionn li a {
     text-decoration: none;
-   
+
 }
+
 .all a::before {
     display: none;
-                display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                
-                    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    list-style-type: none;
 }
+
 /* .footer-h1 {
     color: #FFFFFF;
     padding-top: 100px;
@@ -640,6 +669,7 @@ ul.sectionn li a {
     height: 312px;
     background-color: #2E2F42;
 }
+
 .social-media {
     color: white;
 
@@ -652,38 +682,63 @@ ul.sectionn li a {
     margin-left: 120px;
     padding-top: 100px;
 }
-.ok1{
+
+.ok1 {
     margin-left: 120px;
     margin-top: 16px;
 
 }
+
 .ok2,
 .ok3,
-.ok4{
+.ok4 {
     margin-left: 16px;
 }
-.WEB-Studio{
+
+.WEB-Studio {
     font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.03em;
-        text-align: left;
-        color: #F4F4FD;
-        padding-top: 105px;
-        margin-left: 156px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F4F4FD;
+    padding-top: 105px;
+    margin-left: 156px;
 }
-.over{
-            display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-            
-                list-style-type: none;
+
+.over {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    list-style-type: none;
 }
-.web{
+
+.web {
     color: #4D5AE5;
 }
+
 .over2 {
-    margin-left: 156px ;
-    margin-top : 16px;
+    margin-left: 156px;
+    margin-top: 16px;
+}
+.border {
+    border: 1px  solid grey ;
+    background-color:  rgb(244,244,253,1);
+    background: (rgba(142, 143, 153, 1));
+
+    width: 264px;
+        height: 112px;
+        gap: 0px;
+        border-radius: 8% ;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        z-index: 2;
+}
+.border2{
+   position: absolute;
+   top: 525% ;
+   left: 5%;
+   z-index: 1;
 }
