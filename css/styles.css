@@ -422,16 +422,36 @@
 
 
 }
-
-.ourl2 {
-    margin-left: 24px;
-
+.ourl3:hover{
+    transform: scale(1.05);
+    
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .ourl3 {
     margin-left: 24px;
+    
 }
+.ourl1:hover {
+    transform: scale(1.05);
 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.ourl4:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.ourl5:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.ourl6:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .ourl4 {
     margin-left: 156px;
     margin-top: 48px;
@@ -501,6 +521,16 @@
     top: 0;
     left: 0;
     z-index: 0;
+            border: 1px solid grey;
+                background-color: rgb(244, 244, 253, 1);
+                background: (rgba(142, 143, 153, 1));
+            
+                width: 264px;
+                height: 112px;
+                gap: 0px;
+                border-radius: 4%;
+                border: 1px 0px 0px 0px;
+                opacity: 0px;
 }
 
 .container {
@@ -516,7 +546,7 @@
     z-index: 1;
     padding-left: 96px;
     padding-top: 23px;
-    /* Підняти нижній SVG на один рівень вище */
+    
 }
 
 .new-top {
@@ -524,7 +554,18 @@
     top: 0;
     left: 0;
     z-index: 0;
-    /* Не забувайте, що нижній SVG має бути нижче */
+        border: 1px solid grey;
+            background-color: rgb(244, 244, 253, 1);
+            background: (rgba(142, 143, 153, 1));
+        
+            width: 264px;
+            height: 112px;
+            gap: 0px;
+            border-radius: 4%;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+            
+   
 }
 
 .bot-bot {
@@ -569,7 +610,7 @@
 
 ul.sectionn {
     list-style-type: none;
-    /* Видалення маркерів списку */
+    
 }
 
 ul.sectionn li a {
@@ -679,20 +720,69 @@ ul.sectionn li a {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    margin-left: 120px;
+    padding-left: 20px;
     padding-top: 100px;
+    
 }
 
-.ok1 {
-    margin-left: 120px;
-    margin-top: 16px;
 
-}
-
+.ok1,
 .ok2,
 .ok3,
 .ok4 {
-    margin-left: 16px;
+    margin-top: 16px;
+    
+            width: 40px;
+                height: 40px;
+                top: -0px;
+                gap: 0px;
+                opacity: 0px;
+                background-color: #4D5AE5;
+                border-radius: 50%; 
+                margin-left: 20px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 20px;
+                position: relative;
+}
+.ok1 svg{
+    width: 24px;
+        height: 24px;
+        fill: #F4F4FD;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+}
+.ok2 svg{
+    width: 24px;
+        height: 24px;
+        fill: #F4F4FD;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.ok3 svg{
+    width: 24px;
+        height: 24px;
+        fill: #F4F4FD;
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+}
+.ok4 svg {
+    width: 24px;
+    height: 24px;
+    fill: #F4F4FD;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .WEB-Studio {
@@ -711,10 +801,17 @@ ul.sectionn li a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     list-style-type: none;
+    
+    
 }
-
+.xyi{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        width: 240px;
+}
 .web {
     color: #4D5AE5;
 }
@@ -722,12 +819,20 @@ ul.sectionn li a {
 .over2 {
     margin-left: 156px;
     margin-top: 16px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #F4F4FD;
+        margin-right: 128px;
 }
+
 .border {
     border: 1px  solid grey ;
     background-color:  rgb(244,244,253,1);
     background: (rgba(142, 143, 153, 1));
-
     width: 264px;
         height: 112px;
         gap: 0px;
@@ -741,4 +846,51 @@ ul.sectionn li a {
    top: 525% ;
    left: 5%;
    z-index: 1;
+}
+.container77 {
+    position: relative;
+    display: inline-block;
+   margin-left: 24px;
+   
+    
+}
+.container77:hover {
+transform: scale(1.05);
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        
+}
+.image-container {
+    position: relative;
+}
+
+.image77 {
+    width: 100%;
+    height: auto;
+}
+
+.overlay77 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(77, 90, 229, 1);
+    
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.container77:hover .overlay77 {
+    opacity: 1;
+}
+
+.text77 {
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 32px;
+  
 }
