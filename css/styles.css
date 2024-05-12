@@ -4,12 +4,17 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+body{
+    overflow-x: hidden;
+}
 .best {
-    width: 100%;
+    width: 1400px;
     height: 72px;
 }
-
+.header3{
+    width: 1400px;
+    height: 72px;
+}
 .info {
     display: flex;
     list-style-type: none;
@@ -52,7 +57,7 @@ width: 48px;
 }
 .about2{
 margin-top: 24px;
-    margin-left: 40px;
+    margin-left: 76px;
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -122,9 +127,9 @@ color: #4D5AE5;
 }
 
 .maket {
-    width: 1440px;
+    width: 1400px;
     height: 600px;
-    Top: 72px;
+    
     background-color: #2E2F42;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/img/people-office\ 1\ \(1\).svg);
@@ -151,8 +156,6 @@ color: #4D5AE5;
     width: 169px;
     height: 56px;
     position: absolute;
-    top: 428px;
-    left: 550px;
     border-radius: 4px;
     gap: 10px;
     background-color: #4D5AE5;
@@ -163,23 +166,196 @@ color: #4D5AE5;
     line-height: 24px;
     letter-spacing: 0.04em;
     text-align: left;
-    ;
+    
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    width: Hug (169px);
-    height: Hug (56px);
-    top: 428px;
-    left: 635px;
+    bottom: 188px;
+    left: 625px;
     padding: 16px, 32px, 16px, 32px;
     border-radius: 4px;
     gap: 10px;
 }
 
-.reckrool {
-    color: #FFFFFF;
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 970;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 22, 0.3);
+}
+
+.modal-content {
+    margin-left: 516px;
+    margin-top: 75px;
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: #FCFCFC;
+    border: none;
+}
+
+.close {
+    border-radius: 50%;
+    position: relative;
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: #2E2F42;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    
+    cursor: pointer;
+}
+
+.formxx2 {
+    display: flex;
+    flex-direction: column;
+}
+.icon-window{
+    border-color: #2E2F4266;
+}
+
+.form-label5 {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer; 
+    
+}
+
+.form-group5 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin-left: 24px;
+}
+
+.input-modal {
+    width: 360px;
+    height: 40px;
+    
+    border-radius: 4px;
+    border: 1px 0px 0px 0px;
+    background-repeat: no-repeat;
+        background-image: url(/img/person-black-18dp\ 1person-purple.svg);
+       background-position: 15px;
+}
+.span-mail3{
+color: #8E8F99;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.span-phone{
+    color: #8E8F99;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        margin-top: 8px;
+        margin-bottom: 4px;
+}
+.span-name{
+  color: #8E8F99;  
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: 4px;
+}
+.input-modal:focus {
+outline: none;
+    border-color: #007bff;
+padding-left: 38px;
+background-image: url(/img/person-purple.svg);
+
+}
+.icon-window2 {
+    border-color: #2E2F4266;
+}
+.input-modal2 {
+    width: 360px;
+    height: 40px;
+
+    border-radius: 4px;
+    border: 1px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-image: url(/img/Vectorphonesur.svg);
+    background-position: 15px;
+}
+.input-modal2:focus {
+    outline: none;
+    border-color: #007bff;
+    padding-left: 38px;
+    background-image: url(/img/phone-purple.svg);
+
+}
+.icon-window8 {
+   
+    border-color: rgba(0, 0, 0, 0, 5);
+}
+.input-modal8 {
+    width: 360px;
+    height: 40px;
+
+    border-radius: 4px;
+    border: 1px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-image: url(/img/Vectorелектронка.svg);
+    background-position: 14px;
+}
+
+.input-modal8:focus {
+    outline: none;
+    border-color: #007bff;
+    padding-left: 38px;
+    background-image: url(/img/eelektronka-purple.svg) ;
+    box-shadow:0 0 0 2px rgba(0, 123, 255, 0.25);
+
+}
+.legend-modal {
+    color: rgba(46, 47, 66, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 72px;
+    
 }
 
 .all-text {
@@ -242,7 +418,7 @@ color: #4D5AE5;
 }
 
 .all {
-    Width: 1440px;
+    Width: 1400px;
     Height: 732px;
 
 }
@@ -262,7 +438,7 @@ color: #4D5AE5;
 
 #second-section {
     background-color: #F4F4FD;
-    width: 1440px;
+    width: 1400px;
     height: 780px;
 }
 
@@ -298,9 +474,22 @@ color: #4D5AE5;
     width: 264px;
     height: 428px;
     list-style-type: none;
+    transition: ease-in-out;
+    
 
 }
-
+.person1:hover{
+   transform: scale(1.1);
+}
+.person2:hover {
+    transform: scale(1.1);
+}
+.person3:hover {
+    transform: scale(1.1);
+}
+.person4:hover {
+    transform: scale(1.1);
+}
 .person2 {
     margin-top: 72px;
     margin-right: 24px;
@@ -730,7 +919,7 @@ width: 360px;
 
 }
 .footer{
-    width: 1440px;
+    width: 1400px;
         height: 312px;
         background-color: #2E2F42;
 }
@@ -921,31 +1110,26 @@ margin-left: 120px;
           list-style-type: none;
 }
 
-form input[ type="email" ] {
-    color: aqua;
-}
-input[type="email"] {
+
+.email-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px ;
     border-radius: 3px;
     background-color: rgba(255, 255, 255, 0);
-    
+    color: whitesmoke;
     /* Прозрачный белый цвет */
-}
-
-
-
-input[type="email"]
- {
     width: 100%;
-    padding: 10px;
-    margin-top: 16px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        margin-top: 16px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+
 
 button {
    width: 170px;

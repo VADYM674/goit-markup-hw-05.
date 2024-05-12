@@ -23,11 +23,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
+<header id="header3">
     <nav class="best">
         <ul class="info">
             <li>
@@ -42,14 +43,37 @@
     </nav>
 </header>
 <div class="line"></div>
-    <section id="first-section">
-        <div class="maket">
-            <h1 class="company">Effective Solutions <br>
-                for Your Business</h1>
-            <h2 class="order"> Order Service</h2>
-        </div>
-    </section>
+<section id="first-section">
+    <div class="maket">
+        <h1 class="company">Effective Solutions <br> for Your Business</h1>
+        
+        <button id="orderServiceButton" class="order">Order Service</button>
+    </div>
+</section>
 
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form class="formxx2">
+            <fieldset class="form-group5">
+                <legend class="legend-modal">Leave your contacts and we will call you back</legend>
+                <label class="form-label5">
+                  <span class="span-name">Name</span>  
+                    <input type="text" class="input-modal icon-window" name="Name">
+                </label>
+                <label class="form-label5">
+                    <span class="span-phone">Phone</span>
+                    <input type="tel" class="input-modal2 icon-window2" name="phone">
+                </label>
+                <label  class="form-label5">
+               <span class="span-mail3">Email</span>
+                    <input type="email" class="input-modal8 icon-window8" name="email">
+                </label>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<script src="/node.js"></script>
     <section id="text">
         <div class="all-text">
             <ul class="text-for">
@@ -67,8 +91,6 @@
                                     fill="#4D5AE5" />
                             </svg>
                         </div>
-
-
                         <h4 class="texth1">Strategy</h4>
                         <p class="textp1">Our goal is to identify the business <br>
                             problem to walk away with the <br> perfect and creative solution.</p>
@@ -620,7 +642,7 @@
                 <label class="">
                     
                     <span class="span-Subscribe">Subscribe </span>
-                    <input type="email" name="email" placeholder="E-mail" required />
+                    <input class="email-input" type="email" name="email" placeholder="E-mail" required />
                 </label>
                 </div>
                 <button type="submit" 
