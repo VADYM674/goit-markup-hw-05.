@@ -59,16 +59,30 @@
                 <legend class="legend-modal">Leave your contacts and we will call you back</legend>
                 <label class="form-label5">
                   <span class="span-name">Name</span>  
-                    <input type="text" class="input-modal icon-window" name="Name">
+                    <input type="text" class="input-modal icon-window" name="Name"required>
                 </label>
                 <label class="form-label5">
                     <span class="span-phone">Phone</span>
-                    <input type="tel" class="input-modal2 icon-window2" name="phone">
+                    <input type="tel" class="input-modal2 icon-window2" name="phone"required>
                 </label>
-                <label  class="form-label5">
-               <span class="span-mail3">Email</span>
-                    <input type="email" class="input-modal8 icon-window8" name="email">
+    <label class="form-label5">
+    <span class="span-mail3">Email</span>
+    <input type="email" class="input-modal8 icon-window8" name="email" required>
+    </label>
+
+
+                <label class="form-label5">
+                    <span class="span-comment">Comment</span>
+<input type="text" name="text" class="input-modal9 icon-window9" placeholder="Text input" 
+       onfocus="this.removeAttribute('placeholder');" 
+       onblur="if(this.value==='') this.setAttribute('placeholder', 'Text input');" required>
                 </label>
+            </fieldset>
+            <fieldset class="form-group5">
+                <div class="form-field">
+                    <input type="checkbox" name="language" value="python" id="python">
+                    <label class="form-label" for="python">Python</label>
+                </div>
             </fieldset>
         </form>
     </div>
